@@ -14,7 +14,7 @@ if(!array_key_exists('message', $_POST) || $_POST['message'] == ''){
     $errors['message'] = "Vous n'avez pas renseigné votre message";
 }
 if(!array_key_exists('objet', $_POST) || $_POST['objet'] == ''){
-    $errors['objet'] = "Entree l'objet de votre demende";
+    $errors['objet'] = "Vous n'avez pas renseigné l'objet de votre demande";
 }
 
 session_start();

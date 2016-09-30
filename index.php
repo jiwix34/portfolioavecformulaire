@@ -151,8 +151,8 @@
         </article>
         <div>
           <ul class="listelien">
-            <li class="liencontact liencontactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://www.facebook.com/jimmyfriedblatt.dev.web"><img class="photofooter" src="./css/img/facebook.png" alt="" /></a></li>
-            <li class="liencontact liencontactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://twitter.com/Jimmy_Dev_Web"><img class="photofooter" src="./css/img/twitter.png" alt="" /></a></li>
+            <li class="liencontact liencontactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://www.facebook.com/jimmyfriedblatt.dev.web"><img class="photofooter" src="./css/img/face.png" alt="" /></a></li>
+            <li class="liencontact liencontactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://twitter.com/Jimmy_Dev_Web"><img class="photofooter" src="./css/img/twit.png" alt="" /></a></li>
           </ul>
       </div>
 
