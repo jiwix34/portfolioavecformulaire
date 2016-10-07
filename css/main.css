@@ -24,11 +24,10 @@
   .containernav {
     background-color: black;
     height: 60px;
-    position: fixed;
-    z-index: 10;
     line-height: 60px;
     border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%; }
+    border-bottom-right-radius: 100%;
+    display: none; }
 
   .groupelistenav {
     display: flex;
@@ -51,6 +50,11 @@
   .listenav a:hover {
     color: grey;
     transition: 1s; }
+
+  .navfix {
+    position: fixed;
+    z-index: 10;
+    top: 0; }
 
   .listenav1 {
     transform: skewY(-10deg);
@@ -101,9 +105,22 @@ footer {
     border-radius: 100%; }
 
   .liencontactreseau:hover {
-    background-color: white;
-    transition: 1s;
-    border-radius: 0%; } }
+    transition: 1s; }
+
+  .couleur1contactreseau:hover {
+    background-color: #3b5998; }
+
+  .couleur2contactreseau:hover {
+    background-color: #1c9ceb; }
+
+  .couleur3contactreseau:hover {
+    background-color: #333333; }
+
+  .couleur4contactreseau:hover {
+    background-color: #e62117; }
+
+  .couleurcontactreseau:hover {
+    background-color: #c0d82a; } }
 body {
   background-color: white; }
 

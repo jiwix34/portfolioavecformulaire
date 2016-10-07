@@ -3,11 +3,10 @@
 .containernav{
   background-color: black;
   height: 60px;
-  position: fixed;
-  z-index: 10;
   line-height: 60px;
   border-bottom-left-radius: 100%;
   border-bottom-right-radius: 100%;
+  display: none;
 }
 
 .groupelistenav{
@@ -33,6 +32,11 @@
   color: grey;
   transition: 1s;
 
+}
+.navfix{
+  position: fixed;
+  z-index: 10;
+  top: 0;
 }
 ///// deux premier lien qui sont tournee /////
 .listenav1{

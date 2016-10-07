@@ -44,8 +44,26 @@ text-align: center;
 
 }
 .liencontactreseau:hover{
-  background-color: white;
   transition: 1s;
-  border-radius: 0%;
+}
+
+.couleur1contactreseau:hover{
+  background-color: #3b5998;
+}
+
+.couleur2contactreseau:hover{
+  background-color: #1c9ceb;
+}
+
+.couleur3contactreseau:hover{
+  background-color: #333333;
+}
+
+.couleur4contactreseau:hover{
+  background-color: #e62117;
+}
+
+.couleurcontactreseau:hover{
+  background-color: #c0d82a;
 }
 }

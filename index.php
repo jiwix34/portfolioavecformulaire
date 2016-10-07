@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,15 +15,7 @@
   </head>
   <body>
 
-    <nav class=" col-xs-12 containernav">
-        <ul class="groupelistenav">
-          <li class="listenav listenav1"><a class="js-scrollTo" href="#quisuisje">Qui suis-je</a></li>
-          <li class="listenav listenav1"><a class="js-scrollTo" href="#formation">Formation</a></li>
-          <!--<li class="listenav"><a href="#projet">Projet</a></li>-->
-          <li class="listenav listenav2"><a class="js-scrollTo" href="#competences">Competences</a></li>
-          <li class="listenav listenav2"><a class="js-scrollTo" href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+
 
     <div class=" entete">
       <header id="fondtete">
@@ -34,6 +25,16 @@
         </h1>
       </header>
     </div>
+
+    <nav class=" col-xs-12 containernav">
+        <ul class="groupelistenav">
+          <li class="listenav listenav1"><a class="js-scrollTo" href="#quisuisje">Qui suis-je</a></li>
+          <li class="listenav listenav1"><a class="js-scrollTo" href="#formation">Formation</a></li>
+          <!--<li class="listenav"><a href="#projet">Projet</a></li>-->
+          <li class="listenav listenav2"><a class="js-scrollTo" href="#competences">Competences</a></li>
+          <li class="listenav listenav2"><a class="js-scrollTo" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
     <section id="quisuisje" class="toutesection">
       <header>
@@ -49,7 +50,7 @@
             </article>
     </section>
 
-    <div class= "col-xs-12 sectionimage" id="image1">
+    <div class= "col-xs-12 sectionimage wow fadeInUp" data-wow-duration="1s" data-wow-delay="100ms" data-wow-offset="200" id="image1">
     <section>
     </section>
     </div>
@@ -58,7 +59,7 @@
       <header>
         <h2 class="wow bounceInRight" data-wow-duration="3s" data-wow-delay="100ms" data-wow-offset="100">2016 - Développeur Web </h2>
       </header>
-      <article class="contenue wow bounceInLeft" data-wow-duration="4s" data-wow-delay="100ms" data-wow-offset="100">
+      <article class="contenue wow bounceInLeft" data-wow-duration="3s" data-wow-delay="100ms" data-wow-offset="100">
         <p>
           Cette formation m’a permis de développer des compétences
           dans les deux aspects essentiels des langages informatiques :
@@ -143,7 +144,7 @@
 
     <footer class="col-xs-12 contact" id="contact">
       <section>
-        <article class="textecontact">
+        <article class="textecontact wow fadeIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100">
           <p>
             Pour me contacter vous pouvez m'envoyer un message, vous pouvez egalement me retrouver
             sur Facebook et Twitter.
@@ -151,8 +152,9 @@
         </article>
         <div>
           <ul class="listelien">
-            <li class="liencontact liencontactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://www.facebook.com/jimmyfriedblatt.dev.web"><img class="photofooter" src="./css/img/face.png" alt="" /></a></li>
-            <li class="liencontact liencontactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://twitter.com/Jimmy_Dev_Web"><img class="photofooter" src="./css/img/twit.png" alt="" /></a></li>
+            <li class="liencontact liencontactreseau couleur1contactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://www.facebook.com/jimmyfriedblatt.dev.web"><img class="photofooter" src="./css/img/face.png" alt="" /></a></li>
+            <li class="liencontact liencontactreseau couleur3contactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://github.com/jiwix34/"><img class="photofooter" src="./css/img/github.png" alt="" /></a></li>
+            <li class="liencontact liencontactreseau couleur2contactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://twitter.com/Jimmy_Dev_Web"><img class="photofooter" src="./css/img/twit.png" alt="" /></a></li>
           </ul>
       </div>
 
@@ -174,19 +176,19 @@
           <div class="row">
             <div class="col-xs-6">
               <div class="form-group">
-                <label for="inputname">Votre nom</label>
+                <label for="inputname">Nom</label>
                 <input type="text" name="name" class="form-control" id="inputname" value="<?= isset($_SESSION['inputs']['name']) ? $_SESSION['inputs']['name'] : ''; ?>">
               </div>
             </div>
             <div class="col-xs-6">
               <div class="form-group">
-                <label for="inputprenom">Votre prénom</label>
+                <label for="inputprenom">Prénom</label>
                 <input type="text" name="prenom" class="form-control" id="inputprenom" value="<?= isset($_SESSION['inputs']['prenom']) ? $_SESSION['inputs']['prenom'] : ''; ?>">
               </div>
             </div>
             <div class="col-xs-6">
               <div class="form-group">
-                <label for="inputemail">Votre email</label>
+                <label for="inputemail">Email</label>
                 <input type="text" name="email" class="form-control" id="inputemail" value="<?= isset($_SESSION['inputs']['email']) ? $_SESSION['inputs']['email'] : ''; ?>">
               </div>
             </div>
@@ -198,7 +200,7 @@
             </div>
             <div class="col-xs-12">
               <div class="form-group ">
-                <label for="inputmessage">Votre message</label>
+                <label for="inputmessage">Message</label>
                 <textarea id="inputmessage" name="message" class="form-control champMessage"><?= isset($_SESSION['inputs']['message']) ? $_SESSION['inputs']['message'] : ''; ?></textarea>
               </div>
               <button type="submit" class="btn btn-primary test col-xs-2 col-xs-offset-5">Envoyer</button>
@@ -215,6 +217,8 @@
     <script type="text/javascript" src="./javascript/smoothscroll.js"></script>
     <script type="text/javascript" src="./javascript/wow.min.js"></script>
     <script type="text/javascript" src="./javascript/initwow.js"> </script>
+    <script type="text/javascript" src="./javascript/navfixed.js"> </script>
+
 
   </body>
 </html>
