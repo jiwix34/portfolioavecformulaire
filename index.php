@@ -115,6 +115,14 @@
             </tr>
             <tr>
               <td>
+                JAVASCRIPT
+              </td>
+              <td>
+                permet de faire des animations à l'aide de fonction
+              </td>
+            </tr>
+            <tr>
+              <td>
                 BOOTSTRAP
               </td>
               <td>
@@ -152,9 +160,9 @@
         </article>
         <div>
           <ul class="listelien">
-            <li class="liencontact liencontactreseau couleur1contactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://www.facebook.com/jimmyfriedblatt.dev.web"><img class="photofooter" src="./css/img/face.png" alt="" /></a></li>
-            <li class="liencontact liencontactreseau couleur3contactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://github.com/jiwix34/"><img class="photofooter" src="./css/img/github.png" alt="" /></a></li>
-            <li class="liencontact liencontactreseau couleur2contactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://twitter.com/Jimmy_Dev_Web"><img class="photofooter" src="./css/img/twit.png" alt="" /></a></li>
+            <li class="liencontact liencontactreseau couleur1contactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://www.facebook.com/jimmyfriedblatt.dev.web" target="_blank"><img class="photofooter" src="./css/img/face.png" alt="" /></a></li>
+            <li class="liencontact liencontactreseau couleur3contactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://github.com/jiwix34/" target="_blank"><img class="photofooter" src="./css/img/github.png" alt="" /></a></li>
+            <li class="liencontact liencontactreseau couleur2contactreseau wow zoomIn" data-wow-duration="3s" data-wow-delay="20ms" data-wow-offset="100"><a href="https://twitter.com/Jimmy_Dev_Web" target="_blank"><img class="photofooter" src="./css/img/twit.png" alt="" /></a></li>
           </ul>
       </div>
 
@@ -218,6 +226,8 @@
     <script type="text/javascript" src="./javascript/wow.min.js"></script>
     <script type="text/javascript" src="./javascript/initwow.js"> </script>
     <script type="text/javascript" src="./javascript/navfixed.js"> </script>
+    <script type="text/javascript" src="./javascript/transitionsite.js"> </script>
+
 
 
   </body>

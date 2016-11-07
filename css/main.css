@@ -169,7 +169,7 @@ footer article {
   height: 500px; }
 
 #image1 {
-  background-image: url("./img/test.jpg");
+  background-image: url("./img/ny.jpg");
   display: none; }
 
 @media (min-width: 768px) {
