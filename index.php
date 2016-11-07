@@ -1,7 +1,16 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="description" content=" Jimmy Friedblatt Développeur Web. J'ai intégré l'école beweb,
+    à Lunel crée par Fondespiere et Simplon. j'ai crée des sites internet a l'aide de langage informatique et framework
+    (Front-End et Back-End)." />
+    <meta name="author" content="Jimmy Friedblatt">
+    <meta name="keywords" content="jimmy, friedblatt, web, developpeur web, front-end, back-end, web developper, creation,
+    inspiration, html, css, javascript, php, symfony, jquery, web design, responsive, internet,
+    site internet, website, projet, project, work, travaux, web, facebook, github, twitter, création, portfolio, webdesign,
+    wordpress, developper,développeur, developpeur web lunel, lunel, developpeur web montpellier, montpellier">
     <meta name="viewport" content="width=device-width, , minimum-scale=1, user-scalable=no">
     <link rel="shortcut icon" href="./css/img/logo.png"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
